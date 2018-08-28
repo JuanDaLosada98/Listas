@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 estudiantes.add(nombre);
                 adaptador.notifyDataSetChanged();
                 et_nombre.setText("");
+
             }
         };
         btn_ok.setOnClickListener(miListener);
